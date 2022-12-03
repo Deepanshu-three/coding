@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid>div {
+        text-align: center;
+        border: dotted 2px;
+        font-size: 32px;
+        font-family: cursive;
+        background-color: aqua;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .el1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .el5 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: bisque;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        justify-content: space-around;
+    }
+
+    .cointainer {
+        display: grid;
+        height: 100vh;
+    }
+
+    nav {
+        background-color: antiquewhite;
+        grid-area: navbar;
+
+    }
+
+    main {
+        background-color: aqua;
+        grid-area: header;
+    }
+
+    .box1 {
+        background-color: antiquewhite;
+        grid-area: box1;
+
+    }
+
+    .box2 {
+        background-color: aquamarine;
+        grid-area: box2;
+    }
+
+    .box3 {
+        background-color: darkgoldenrod;
+        grid-area: box3;
+    }
+
+    .sidebar {
+        background-color: lightblue;
+        grid-area: sidebar;
+    }
+</style>
+
+<body>
+    <div class="grid">
+        <div class="el1">element1</div>
+        <div class="el2">element2</div>
+        <div class="el3">element3</div>
+        <div class="el4">element4</div>
+        <div class="el5">element5</div>
+        <div class="el6">element6</div>
+        <div class="el7">element7</div>
+        <div class="el8">element8</div>
+        <div class="el9">element9</div>
+
+    </div>
+    <div class="cointainer">
+        <nav>nav</nav>
+        <main>main</main>
+        <div class="sidebar">sidebar</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </div>
+
+</body>
+
+</html>

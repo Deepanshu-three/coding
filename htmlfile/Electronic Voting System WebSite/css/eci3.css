@@ -1,0 +1,66 @@
+body{background:;
+}
+#loading{
+			height:100%;
+			width:100%;
+			background:#FCFEFC;
+}
+#loading #load{
+				background:;
+				Height:500px;
+				width:500px;
+				margin:auto;
+				margin-top:5%;
+				
+}
+#loading #load img{
+					height:400px;
+					width:400px;
+					margin-left:10%;
+					margin-top:10%;
+}
+#loading #load p{
+					color:blue;
+					font:20px "arial";
+					margin:auto;
+					margin-left:38%;
+}
+#container {
+				background:url(img/a11.jpg);
+				background-size:100%;
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				width:100%;
+				height:100%;
+				position:;
+}
+#container #top{
+					background:;
+					width:100%;
+					height:100px;
+					text-align:center;
+					font:25px "Century gothic";
+}
+#container #box{width:300px;
+						Height:400px;
+						background:#f2f2f2;
+						border-radius:5px;
+						padding:20px;
+						margin:auto;
+						margin-top:50px;
+						text-align:centre;
+						opacity:0.6;
+						display:;
+						text-align:center;
+					}	
+#container #box h4{
+					font:20px "arial";
+					color:green;					
+}
+#container #box p{
+					margin-top:100px;
+}
+#container #box h5{
+					margin-top:150px;
+					font-size:30px;
+}

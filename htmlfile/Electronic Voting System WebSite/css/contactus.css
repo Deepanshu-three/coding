@@ -1,0 +1,213 @@
+body{
+	background:#ECECEE;
+}
+#container{
+			width:100%;
+			height:100%;
+			background:;
+}
+#container #top{
+					width:100%;
+					height:200px;
+					background:url(img/banner5.jpg);
+					background-repeat:no-repeat;
+					background-size:100%;
+					box-sizing:border-box;
+					padding-top:20px;
+}
+#container #top #head{
+						background:;
+						Height:120px;
+						width:300px;
+						text-align:center;
+						padding-top:5px;
+						margin:auto;
+						margin-right:50px;
+}
+#container #top #head h1{
+							font:60px "impact";
+							color:#fff;
+}
+#container #top #head1 {
+						width:100%;
+						height:50px;
+						background:;
+						background-attachment:fixed;
+}
+#container #middle #head1 #menu{
+								width:80%;
+								height:50px;
+								background:;
+								margin:auto;
+}
+#container #middle #head1 #menu ul{
+									width:100%;
+									height:80px;
+									background:;
+									list-style-type:none;
+									padding:5px;
+									text-align:centre;
+									box-sizing:border-box;
+									padding:0 0 0 0;
+									margin-left:20%;
+}
+#container #middle #head1 #menu ul li{
+									
+									width:120px;
+									height:40px;
+									background:#555;
+									color:#fff;
+									display:inline-block;
+									font:25px century gothetic;
+									text-align:center;
+									padding-top:2px;
+									margin-left:3px;
+									box-shadow:10px 5px 10px grey;
+									opacity:0.8;
+}
+#container #middle #head1 #menu ul #l5 { background:red;
+										color:black;}
+#container #middle #head1 #menu ul li a{
+										text-decoration:none;
+										color:#fff;
+										
+}
+#container #middle #head1 #menu ul li:hover{
+											background:#eee;
+											opacity:0.9;
+											box-shadow:0 0 0;
+}
+#container #middle #head1 #menu ul li:hover a{ 
+											
+											color:#111;}
+#container #middle{
+					background:;
+					width:100%;
+					height:530px;
+					box-sizing:border-box;
+}
+#container #middle1{
+					background:url(img/location3.png);
+					width:100%;
+					margin-top:0px;
+					margin:auto;
+					height:250px;
+					position:static;
+					background-size:100%;
+					background-repeat:no-repeat;
+}
+#container #middle .pm{
+						display:block;
+						height:500px;
+}
+#container #middle #left{
+							float:left;
+							width:40%;
+							background:;
+}
+#container #middle #left #heading{
+									margin-top:50px;
+									margin-left:20px;
+									background:;
+									width:300px;
+									height:300px;
+									text-align:left;
+								}
+#container #middle #left #heading h3{
+									font:25 "century gothic";
+									color:#818183;
+									}
+#container #middle #left #heading p{font:18px "century gothic";
+									color:;
+									}
+#container #middle #left #icon{
+								background:;
+								width:200px;
+								height:50px;
+								margin-top:-20px;
+								margin-left:-24px;
+									}
+#conatiner #middle #left #icon ul{
+									list-style-type:none;
+									text-align:;
+									padding:5 5;
+									margin-left:0px;
+	}
+#container #middle #left #icon ul li{
+									display:inline-block;
+									padding:5 5;
+}
+#container #middle #left #icon ul li img{
+									width:20px;
+									height:20px;
+}
+#container #middle #right{
+							width:60%;
+							float:right;
+							background:;
+							padding-top:0px;
+							padding-left:10%;
+							box-sizing:border-box;
+}
+#container #middle #right #box{
+								width:90%;
+								height:400px;
+								background:;
+								box-sizing:border-box;
+								border-radius:10px;
+								opacity:0.8;
+								font-size:20px;
+								color:white;
+								padding:10% 5%;
+								padding-right:12px;
+								margin-top:-30px;
+}
+#container #middle #right #box #first{
+										width:275px;
+										height:70px;
+										background:;
+}
+#container #middle #right #box #second{
+										float:right;
+										width:275px;
+										height:70px;
+										background:;
+										margin-top:-70px;
+}
+#container #middle #right #box #third{
+										width:100%;
+										height:70px;
+										background:;
+}
+#container #middle #right #box input[type=text]{
+										width:100%;
+										padding:10 20;
+										margin:8px 0;
+										display:inline;
+										border:3px solid #818183;
+										border-radius:6px;
+										box-sizing:border-box;
+}
+#container #middle #right #box input[type=submit]{
+													width:100%;
+													padding:10 20;
+													height:50px;
+													background-color:#4caf50;
+													color:white;
+													margin:8px 0;
+													border:none;
+													border-radius:6px;
+													cursor:pointer;
+													margin-top:20px;
+}
+textarea{
+			width:100%;
+			padding:10 20;
+			box-sizing:border-box;
+			height:200px;
+			color:black;
+			border:3px solid #818183;
+			border-radius:6px;
+			font-size:17px;
+}
+#container #middle #right #box input[type=submit]:hover{background-color:#45a049;}

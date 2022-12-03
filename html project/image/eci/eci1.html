@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>t</title>
+</head>
+<link rel="stylesheet" href="../eci1.css" type="text/css" />
+<body>
+	<div id="scan">
+		<div id="box">
+			<div id="close" onclick="stop()">
+				<img src="../img/close.png">
+			</div>			
+			<div id="img">
+				<img src="../img/fig.gif">
+			</div>
+			<h4>Please Put Your Fingure On Scanner</h4>
+			</div>						
+		</div>
+	</div>
+	<div id="container">
+		<div id="top">
+			<h1>Verification</h1>
+		</div>
+		<div id="box">
+			<div id="img">
+				<img src="../img/fig.gif">
+			</div>
+			<button id="but" onclick="start()">Enter Fingure Print</button>
+			<div id="la">	
+				<h4>Enter Your Voter ID Number</h4>
+			</div>
+			<input type="text" id="vno">
+			<div id="pro">
+				<div class="proceed"><a href="eci2.html">Proceed</a></div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function start()
+		{
+			document.getElementById("scan").style.display="block";
+			document.getElementById("container").style.display="none";				
+		}
+		function stop()
+		{
+			
+			document.getElementById("scan").style.display="none";
+			document.getElementById("container").style.display="block";
+		}
+	</script>
+</body>
+	
+
+</html>

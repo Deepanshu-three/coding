@@ -1,0 +1,240 @@
+body {
+	background-color:  rgb(134, 214, 243);
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#container #top {
+	width: 100%;
+	height: 100px;
+
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#container #top #head {
+	width: 100%;
+
+	height: 100px;
+	text-align: center;
+}
+
+#container #top #head h1 {
+	font-size: 50px;
+	color: #000000;
+}
+
+#container #middle #head1 {
+	width: 100%;
+	height: 50px;
+	margin-top: 60px;
+	background-attachment: fixed;
+}
+
+#container #middle #head1 #menu {
+	width: 80%;
+	height: 50px;
+
+	margin: auto;
+	margin-top: 10px;
+	position: relative;
+	top:20px;
+}
+
+#container #middle #head1 #menu ul {
+	width: 100%;
+	height: 80px;
+
+	list-style-type: none;
+	padding: 5px;
+	text-align: centre;
+	box-sizing: border-box;
+	padding: 0 0 0 0;
+	margin-top: -95px;
+	margin-left: 20%;
+}
+
+#container #middle #head1 #menu ul li {
+
+	width: 120px;
+	height: 40px;
+	background: #555;
+	color: #fff;
+	display: inline-block;
+	font: 25px century gothetic;
+	text-align: center;
+	padding-top: 2px;
+	margin-left: 3px;
+	box-shadow: 10px 5px 10px grey;
+	opacity: 0.6;
+}
+
+#container #middle #head1 #menu #ul #l4 {
+	background: red;
+	color: black;
+}
+
+#container #middle #head1 #menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-style: bold;
+}
+
+#container #middle #head1 #menu ul li:hover {
+	background: #777;
+	opacity: 0.9;
+	box-shadow: 0 0 0;
+}
+
+#container #middle #head1 #menu ul li:hover a {
+
+	color: #111;
+}
+
+#container #middle {
+	width: 100%;
+	height: 770px;
+
+	padding-top: 50;
+
+}
+
+#container #middle #box {
+	background: #f2f2f2;
+	opacity: 0.8;
+	width: 800px;
+	height: 700px;
+	text-align: justify;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #818183;
+	box-shadow: 10px 10px 15px #818183;
+}
+
+#container #middle #box h2 {
+	font: 40px "impact";
+	color: #610800;
+}
+
+#container #middle #box p {
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #610800;
+}
+
+#container #middle #box #img {
+
+	height: 250px;
+	width: 100%;
+}
+
+#container #middle #box #img img {
+	height: 250px;
+	width: 100%;
+}
+
+#container #bottom {
+	width: 100%;
+	height: 400px;
+
+
+	box-sizing: border-box;
+}
+
+#container #bottom #top1 {
+	width: 100%;
+
+	height: 80px;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+
+#container #bottom #top1 h3 {
+	font: 30px "impact";
+	text-align: center;
+	position: relative;
+	top:40px;
+	color: #000000;
+	
+}
+
+#container #bottom #bottom1 #first {
+
+	width: 300px;
+	height: 350px;
+	margin-left: 6%;
+	padding: 5 5 5 5;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	top: 40px;
+	left: 200px;
+	
+}
+
+#container #bottom #bottom1 #second {
+
+	width: 300px;
+	height: 350px;
+	margin-left: 10%;
+	padding: 5 5 5 5;
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	left: 200px;
+	
+
+}
+
+#container #bottom #bottom1 #third {
+
+	width: 300px;
+	height: 350px;
+	margin-left: 10%;
+	padding: 5 5 5 5;
+	box-sizing: border-box;
+	position: relative;
+	top: 40px;
+	display: inline-block;
+	left: 200px;
+}
+
+#container #bottom #bottom1 #img1 {
+	width: 290px;
+	height: 200px;
+
+	display: block;
+}
+
+#container #bottom #bottom1 #img1 img {
+	width: 290px;
+	height: 200px;
+}
+
+#container #bottom #bottom1 #about1 {
+	width: 290px;
+	height: 100px;
+	margin-top: 5px;
+
+	box-sizing: border-box;
+	display: block;
+
+}
+
+#container #bottom #bottom1 #about1 h4 {
+	font: 20px "impact";
+	color: #000000;
+}
+
+#container #bottom #bottom1 #about1 h5 {
+	font: 15px "impact";
+	color: #000000;
+}

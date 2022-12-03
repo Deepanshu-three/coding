@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/gallery1.css" type="text/css">
+</head>
+
+<body>
+    <div id="maximize">
+        <div id="left" onclick="mleft()">
+            <img src="image/img/movel.png" onclick="mleft">
+        </div>
+        <div id="showing">
+
+        </div>
+        <div id="minimize" onclick="min()">
+            <img src="image/gallery/close.png">
+        </div>
+        <div id="right" onclick="mright()">
+            <img src="image/img/mover.png" onclick="mright()">
+        </div>
+    </div>
+    <div id="container">
+        <div id="top">
+            <div id="head">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="head1">
+                <div id="menu">
+                    <ul>
+                        <li id="l1"><a href="Home.html">Home</a></li>
+                        <li id="l3"><a href="News.html">News</a></li>
+                        <li id="l2"><a href="">Gallery</a></li>
+                        <li id="l4"><a href="Aboutus.html">About Us</a></li>
+                        <li id="l5"><a href="Contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="middle1">
+            <ul>
+                <li><img src="image/gallery/1.jpg" onclick="show1()" id="img1">
+                </li>
+                <li><img src="image/gallery/2.jpg" onclick="show2()" id="img2">
+                </li>
+                <li><img src="image/gallery/3.jpg" onclick="show3()" id="img3">
+                </li>
+            </ul>
+            <ul>
+                <li><img src="image/gallery/4.jpg" onclick="show4()" id="img4">
+                </li>
+                <li><img src="image/gallery/5.jpg" onclick="show5()" id="img5">
+                </li>
+                <li><img src="image/gallery/6.jpg" onclick="show6()" id="img6">
+                </li>
+            </ul>
+            <ul>
+                <li><img src="image/gallery/7.png" onclick="show7()" id="img7">
+                </li>
+                <li><img src="image/gallery/8.jpg" onclick="show8()" id="img8">
+                </li>
+                <li><img src="image/gallery/9.jpg" onclick="show9()" id="img9">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var im1 = document.getElementById("img1").src;
+        var im2 = document.getElementById("img2").src;
+        var im3 = document.getElementById("img3").src;
+        var im4 = document.getElementById("img4").src;
+        var im5 = document.getElementById("img5").src;
+        var im6 = document.getElementById("img6").src;
+        var im7 = document.getElementById("img7").src;
+        var im8 = document.getElementById("img8").src;
+        var im9 = document.getElementById("img9").src;
+        function show1() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img1").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im1'>";
+
+        }
+        function show2() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img2").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im2'>";
+
+        }
+        function show3() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img3").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im3'>";
+
+        }
+        function show4() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img4").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im4'>";
+
+        }
+        function show5() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img5").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im5'>";
+
+        }
+        function show6() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img6").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im6'>";
+
+        }
+        function show7() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img7").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im7'>";
+
+        }
+        function show8() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img8").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im8'>";
+
+        }
+        function show9() {
+            document.getElementById("maximize").style.display = "block";
+            document.getElementById("menu").style.display = "none";
+            var imgno = document.getElementById("img9").src;
+            document.getElementById("showing").innerHTML = "<img src='" + imgno + "' id='big' class='im9'>";
+        }
+        function min() {
+            document.getElementById("maximize").style.display = "none";
+            document.getElementById("menu").style.display = "block";
+        }
+        function mright() {
+            var prev = document.getElementById("big").src;
+            if (prev == im1) {
+
+                show2();
+            }
+            else if (prev == im2) {
+
+                show3();
+            }
+            else if (prev == im3) {
+
+                show4();
+            }
+            else if (prev == im4) {
+
+                show5();
+            }
+            else if (prev == im5) {
+
+                show6();
+            }
+            else if (prev == im6) {
+
+                show7();
+            }
+            else if (prev == im7) {
+
+                show8();
+            }
+            else if (prev == im8) {
+
+                show9();
+            }
+            else if (prev == im9) {
+
+                show1();
+            }
+        }
+        function mleft() {
+            var prev = document.getElementById("big").src;
+            if (prev === im1) {
+                show9();
+            }
+            else if (prev === im2) {
+                show1();
+            }
+            else if (prev === im3) {
+                show2();
+            }
+            else if (prev === im4) {
+                show3();
+            }
+            else if (prev === im5) {
+                show4();
+            }
+            else if (prev === im6) {
+                show5();
+            }
+            else if (prev === im7) {
+                show6();
+            }
+            else if (prev === im8) {
+                show7();
+            }
+            else if (prev === im9) {
+                show8();
+            }
+        }
+    </script>
+</body>
+
+</html>

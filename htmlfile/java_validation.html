@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1" method="post" action="abc.php" onsubmit="nameval()" >
+        Name: <input type="text" name="n1"><br><br>
+        Password: <input type="password" name = "pass"><br><br>
+        Re Enter password: <input type="password" name = "pass1"> <br>
+        <input type="submit" value="submit">
+        E-mail: <input type="text" name="email"> <br>
+        <input type="text" id="name" onkeyup="fun()">
+        
+    </form>
+    <script>
+        function nameval(){
+            var emailval = document.form1.email.value;
+            var x1 = atposition = emailval.indexOf("@");
+            var dotposition = emailval.indexOf(".");
+            var x=document.form1.n1.value;
+            var p = document.form1.pass.value;
+            var v = document.form1.pass.value;
+            var v1 = document.form1.pass1.value;
+            if(x==null || x == ""){
+                alert("enter a name")
+            }
+            if (p.length<6){
+                alert("create a strong password")
+
+            }
+            if (v!=v1){
+                alert("password not same")
+            }
+            if (atposition<1 || dotposition+2>=emailval.length || dotposition<atposition+2){
+                alert("Please enter a valid email")
+            }
+        }
+        function fun(){
+            var x = document.getElementById("name")
+            x.value = x.value.toUpperCase()
+        }
+
+     
+    </script>
+</body>
+</html>

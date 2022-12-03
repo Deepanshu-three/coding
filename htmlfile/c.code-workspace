@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../c"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../java"
+		},
+		{
+			"path": "../python"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ejs": "html",
+			"MARKS.C": "cpp",
+			"TEST.C": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "htmlfile"
+	}
+}

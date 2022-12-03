@@ -1,0 +1,30 @@
+body{
+		background:;}
+#container #middle #box{width:300px;
+						Height:400px;
+						background:#f2f2f2;
+						border-radius:5px;
+						padding:20px;
+						margin:auto;
+						text-align:centre;
+						opacity:0.9;
+						
+					}	
+#container #middle #box input,select{
+				width:100%;
+				padding:10 20;
+				margin:8px 0;
+				display:inline-block;
+				border:1px solid #ccc;
+				border-radius:6px;
+				box-sizing:border-box;
+}
+#container #middle #box input[type=submit]{
+		width:100%;
+		background-color:#4caf50;
+		color:white;
+		margin:8px 0;
+		border:none;
+		cursor:pointer;
+}
+#container #middle #box input[type=submit]:hover{background-color:#45a049;}

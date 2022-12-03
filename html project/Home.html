@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<div id="container">
+		<div id="top">
+			<div id="head">
+				<div id="logo"><img src="image/img/logo.png"></div>
+				<div id="icon">
+					<ul>
+						<li><a href="fb"><img src="image/img/logo/fb.png"></a></li>
+						<li><a href="gp"><img src="image/img/logo/gp.png"></a></li>
+						<li><a href="in"><img src="image/img/logo/in.png"></a></li>
+						<li><a href="tw"><img src="image/img/logo/tw.png"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="head1">
+				<div id="title">
+					<h1>Election Comission Of India</h1>
+				</div>
+			</div>
+			<div id="search">
+				<form action="https://www.google.com/search" method="get" >
+					<input type="text" placeholder="Seaech anything" name="search">
+					<button type="submit">Search</button>
+				</form>
+			</div>
+			<div id="head2">
+				<div id="menu">
+					<ul>
+						<li id="l1"><a href="">Home</a></li>
+						<li id="l3"><a href="https://economictimes.indiatimes.com/topic/election-commission">News</a></li>
+						<li id="l2"><a href="gallery.html">Gallery</a></li>
+						<li id="l4"><a href="Aboutus.html">About Us</a></li>
+						<li id="l5"><a href="Contactus.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="middle">
+			<div id="vote" class="dropdown">
+				<h3>IF you like to Vote online</h3>
+				<button class="dropbtn" onclick="showhide()">Click Here</button>
+				<div id="show">
+					<div id="box" style="display:none">
+						<form>
+							<label for="fname">First Name</label>
+							<input type="Text" id="fname" placeholder="Your Name" required>
+							<label for="lname">Last Name</label>
+							<input type="Text" id="lname" placeholder="Your Last Name">
+							<label for="anumber">Adhaar Card Number</label>
+							<input type="Text" id="fname" placeholder="Your Adhaar Card Number">
+							<label for="state">State </label>
+							<select id="state">
+								<option value="andhra Pradesh">Andhra Pradesh</option>
+								<option value="arunachal Pradesh">Arunachal Pradesh</option>
+								<option value="assam">Assam</option>
+								<option value="bihar">Bihar</option>
+								<option value="chhattisgarh">Chhattisgarh</option>
+								<option value="goa">Goa</option>
+								<option value="gujrat">Gujarat</option>
+								<option value="harayana">Harayana</option>
+								<option value="himachal Pradesh">Himachal Pradesh</option>
+								<option value="jahrkhand">Jahrkhand</option>
+								<option value="karnataka">Karnataka</option>
+								<option value="Kerala">Kerala</option>
+								<option value="Madhya Pradesh">Madhya Pradesh</option>
+								<option value="Marasthra">Maharasthra</option>
+								<option value="manipur">Manipur</option>
+								<option value="mizoram">Mizoram</option>
+								<option value="nagaland">Nagaland</option>
+								<option value="odisha">Odisha</option>
+								<option value="punjab">Punjab</option>
+								<option value="rajasthan">Rajasthan</option>
+								<option value="sikkim">Sikkim</option>
+								<option value="Tamil Nadu">Tamil Nadu</option>
+								<option value="telangana">Telangana</option>
+								<option value="tripura">Tripura</option>
+								<option value="uttarakhand">Uttarakhand</option>
+								<option value="Utter Pradesh">Utter Pradesh</option>
+								<option value="West Bengal">West Bengal</option>
+								<option value="andaman">Andaman and Nicobar Island</option>
+								<option value="chandigarh">Chandigarh</option>
+								<option value="Dadra">Dadra</option>
+								<option value="Daman">Daman</option>
+								<option value="Delhi">Delhi</option>
+								<option value="lakshdeep">Lakshdeep</option>
+								<option value="pondicherry">Pondicherry</option>
+							</select>
+							<div id="submit">
+								<a href="image/eci/eci1.html">Submit</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var chg = 0;
+		function showhide() {
+			if (chg == 0) {
+				chg = 1;
+				document.getElementById('box').style.display = 'block';
+			}
+			else if (chg == 1) {
+				chg = 0;
+				document.getElementById('box').style.display = 'none';
+			}
+		}
+	</script>
+</body>
+</html>

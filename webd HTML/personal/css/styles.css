@@ -1,0 +1,16 @@
+body{
+    background-color: #ccdada
+}
+hr{
+    background-color: #ccdada;
+    border-style: dotted none none;
+    border-color: rgb(79, 79, 79);
+    border-width: 6px;
+    width: 10%;
+}
+h1{
+    color: #48afaf;
+}
+h3{
+    color: #48afaf;
+}

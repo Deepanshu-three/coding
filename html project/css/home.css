@@ -1,0 +1,284 @@
+body {
+    background: url(img/a11.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#container #top {
+    width: 100%;
+    height: 250px;
+}
+
+#container #top #head {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-attachment: fixed;
+    display: inline-block;
+}
+
+#container #top #head #logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 47%;
+
+}
+
+#container #top #head #logo img {
+    width: 100px;
+    height: 100px;
+}
+
+#container #top #head #icon {
+    float: right;
+    width: 200px;
+    height: 50px;
+    display: inline;
+    margin-top: -100px;
+}
+
+#container #top #head #icon ul {
+
+    list-style-type: none;
+    text-align: center;
+    padding: 5 5;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+#container #top #head #icon ul li {
+    display: inline-block;
+    padding: 5 5;
+}
+
+#container #top #head #icon ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+#container #top #head1 {
+    width: 100%;
+    height: 100px;
+    background-attachment: fixed;
+
+}
+
+#container #search {
+    width: 50%;
+    height: 150px;
+
+
+    box-sizing: border-box;
+    padding: 60px 0px 0px 20px;
+}
+
+#container #search input[type=text] {
+    width: 490px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    margin-bottom: -10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    font: 20px arial;
+    background: #F8ECF0;
+    color: #E8074C;
+    margin: -55px 350px;
+}
+
+#container #search input[type=submit] {
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    font: 20px "century gothic";
+    font-weight: bolder;
+    background: #E8074C;
+    color: #fff;
+    cursor: pointer;
+    margin: -55px 850px;
+}
+
+#container #search input[type=submit]:hover {
+    background: #CC0A46;
+}
+
+#container #top #head1 #title {
+    width: 700px;
+    height: 100px;
+    margin-left: 23.7%;
+    text-align: center;
+    font-family: franklin gothic;
+    font-size: 150%;
+    padding: 1 5 1 5;
+    box-sizing: border-box;
+    color: #111;
+}
+
+#container #top #head2 {
+    width: 100%;
+    height: 50px;
+
+    background-attachment: fixed;
+}
+
+#container #top #head2 #menu {
+    width: 80%;
+    height: 50px;
+
+    margin: auto;
+}
+
+#container #top #head2 #menu ul {
+    width: 100%;
+    height: 80px;
+
+    list-style-type: none;
+    padding: 5px;
+    text-align: centre;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin-top: -95px;
+    margin-left: 20%;
+}
+
+#container #top #head2 #menu ul li {
+
+    width: 120px;
+    height: 40px;
+    background: #555;
+    color: #fff;
+    display: inline-block;
+    font: 25px century gothetic;
+    text-align: center;
+    padding-top: 2px;
+    margin-left: 3px;
+    box-shadow: 10px 5px 10px grey;
+    opacity: 0.6;
+}
+
+#container #top #head2 #menu ul #l1 {
+    background: red;
+    color: black;
+}
+
+#container #top #head2 #menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-style: bold;
+}
+
+#container #top #head2 #menu ul li:hover {
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 0 0 0;
+}
+
+#container #top #head2 #menu ul li:hover a {
+
+    color: #111;
+}
+
+#container #middle {
+    width: 100%;
+    height: 600px;
+
+    padding-top: 70px;
+}
+
+#container #middle #vote {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    color: #555;
+}
+
+#container #middle #vote h3 {
+    font: 25px "impact";
+}
+
+#container #middle #vote {
+    width: 100%;
+    height: 500px;
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container #middle #vote #box {
+    width: 300px;
+    Height: 400px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    text-align: centre;
+    opacity: 0.9;
+
+}
+
+#container #middle #vote #box input,
+select {
+    width: 100%;
+    padding: 10 20;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+#container #middle #vote #box #submit {
+    width: 100%;
+    height: 40px;
+    background-color: #4caf50;
+    padding: 6 5;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#container #middle #vote #box #submit a {
+    text-decoration: none;
+    font: 20px "impact";
+    color: white;
+}
+
+#container #middle #vote #box #submit:hover {
+    background-color: #45a049;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980b9;
+}

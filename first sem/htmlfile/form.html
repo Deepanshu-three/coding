@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    fieldset {
+        height: fit-content;
+        width: fit-content;
+        background-color: aquamarine;
+        
+        
+    }
+    .txt{
+        text-align: right;
+        align-items: right;
+
+    }
+    
+</style>
+
+<body>
+    <form action="action.php" method="post">
+        <fieldset>
+            <legend>Form</legend>
+            <label for="fname">Name </label>
+            <input type="text" class="txt" id="name" name="name">
+            <br><br>
+            <label for="lname">Address </label>
+            <input type="text" class="txt" id="address" name="address">
+            <br><br>
+            <label for="class">City </label>
+            <input type="text" class="txt" id="class" name="class">
+            <br><br>
+
+            <label for="class">State </label>
+            <input type="text" class="txt" id="state" name="state">
+            <br><br>
+            <label for="class">Zip </label>
+            <input type="text" class="txt" id="zip" name="zip">
+            <br><br>
+            <label for="select">Magazine</label>
+            <select>
+                <option value="select">Newsweek</option>
+                <option value="btech">Newsweek1</option>
+                <option value="mtech">Newsweek2</option>
+                <option value="phd">Newsweek3</option>
+            </select>
+            <br><br>
+            <label for="mail">Subscription</label>
+            <input type="radio" id="css" name="sub1year">
+            <label for="css">1 Year</label>
+            <input type="radio" id="html" name="sun2year">
+            <label for="html">2 Year</label>
+
+
+                
+                <br><br>
+                <label for="comments">Additional Comments</label><br><br>
+                <textarea name="Additionalcomments" id="1" cols="30" rows="10" cols="40"></textarea>
+                <br><br>
+               
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
